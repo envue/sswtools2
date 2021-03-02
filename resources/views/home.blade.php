@@ -161,7 +161,7 @@
                 </span>
                 </div>
             </li>
-            <!-- /.item -->
+            <!-- /.item 
             <li class="item">
                 <div class="product-img">
                     <i class="fa fa-file fa-2x bg-secondary p-3 white-text rounded"></i>
@@ -197,7 +197,7 @@
                 A description of this resource.
                 </span>
                 </div>
-            </li>
+            </li> -->
             <!-- /.item -->
             </ul>
         </div>

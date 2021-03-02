@@ -364,5 +364,10 @@
                 },
             },
         });
+        function beforePrintHandler () {
+            for (var id in Chart.instances) {
+                Chart.instances[id].resize();
+            }
+        }
     </script>
 @endsection
