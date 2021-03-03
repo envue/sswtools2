@@ -12,9 +12,13 @@ class ApprovalMiddleware
     {
         if (auth()->check()) {
             if (!auth()->user()->approved) {
-                auth()->logout();
-
-                return redirect()->route('login')->with('message', trans('global.yourAccountNeedsAdminApproval'));
+                
+                // Require Approval
+                // auth()->logout();
+                // return redirect()->route('login')->with('message', trans('global.yourAccountNeedsAdminApproval'));
+                
+                // Bypass Approval
+                return $next($request);
             }
         }
 
