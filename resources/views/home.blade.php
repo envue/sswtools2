@@ -256,6 +256,8 @@
             name: "{{ Auth::user()->name }}",
             role: "{{ Auth::user()->role_id }}",
             last_app_use: {{ time() }},
+            tags: "App_V2", // Multiple tags can be added separated by comma
+            overwrite_tags: false
         });
     });
 
