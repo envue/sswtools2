@@ -248,6 +248,7 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
 
 <script>
+    /*    
     $(document).ready(function(){
 
         // Send user data to Gist
@@ -260,6 +261,7 @@
             "overwrite_tags": false
         });
     });
+    */
 
     //Chartjs script
         var workTypeData = {!! json_encode($workTypeData)  !!};
